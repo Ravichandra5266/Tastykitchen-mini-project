@@ -1,0 +1,45 @@
+.emp-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.emp-img {
+  height: 175px;
+  width: 202px;
+}
+@media screen and (min-width: 768px) {
+  .emp-img {
+    height: 367px;
+    width: 425px;
+  }
+}
+.emp-title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #1e293b;
+}
+.emp-para {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #64748b;
+}
+.emp-btn {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  width: 93px;
+  height: 32px;
+  background: #f7931e;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}

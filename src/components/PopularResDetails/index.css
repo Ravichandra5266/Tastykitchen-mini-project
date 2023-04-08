@@ -1,0 +1,117 @@
+.route-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px;
+  border: 1px solid #f7931e;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .route-link {
+    width: 44%;
+    height: 250px;
+  }
+}
+@media screen and (min-width: 996px) {
+  .route-link {
+    width: 45%;
+    height: 250px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .route-link {
+    width: 46%;
+    height: 250px;
+  }
+}
+
+.food-item-flex-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.popRes-img {
+  width: 130px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 768px) {
+  .popRes-img {
+    width: 180px;
+    height: 250px;
+  }
+}
+.food-item-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 10px;
+  padding-right: 5px;
+}
+.popRes-title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #334155;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.popRes-food-type {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #64748b;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.popRes-timings {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #64748b;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.popRes-location {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #64748b;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.popRes-rating-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.star-icon {
+  color: gold;
+  height: 22px;
+  width: 22px;
+}
+.popRes-rating {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  color: #1e293b;
+  margin: 0px;
+  margin-left: 5px;
+}
+.popRes-rating-count {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #64748b;
+  margin: 0px;
+  margin-left: 5px;
+}

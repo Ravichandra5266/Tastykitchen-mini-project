@@ -1,0 +1,43 @@
+.total-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.total-content-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.total-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3e4c59;
+}
+@media screen and (min-width: 768px) {
+  .total-title {
+    font-size: 35px;
+  }
+}
+.total-sum {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3e4c59;
+  margin-left: 5px;
+}
+@media screen and (min-width: 768px) {
+  .total-sum {
+    font-size: 24px;
+  }
+}
+
+.total-icons {
+  width: 22px;
+  height: 22px;
+  color: #3e4c59;
+}

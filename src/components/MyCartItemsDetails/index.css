@@ -1,0 +1,128 @@
+.cart-details-items {
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .cart-details-items {
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+.img-title-container {
+  display: flex;
+  justify-content: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .img-title-container {
+    align-items: center;
+    width: 100%;
+  }
+}
+.cart-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .cart-img {
+    width: 250px;
+    height: 250px;
+  }
+}
+.lg-title {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .lg-title {
+    display: block;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #183b56;
+    margin-left: 10px;
+  }
+}
+.content-container {
+  margin-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .content-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+.sm-title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #183b56;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .sm-title {
+    display: none;
+  }
+}
+.quantity-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .quantity-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.quantity-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #475569;
+  margin: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.q-btn {
+  width: 40px;
+  height: 40px;
+  background-color: #3e4c59;
+  border-radius: 0.84375px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.price-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .price-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.price-icon {
+  width: 22px;
+  height: 22px;
+  color: #ffa412;
+}
+.price-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffa412;
+}

@@ -1,0 +1,151 @@
+.spRes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.spRes-loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.spRes-Banner-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 150px;
+  background-color: #333333;
+  padding: 10px;
+}
+.banner-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .banner-img {
+    width: 500px;
+    height: 300px;
+  }
+}
+.banner-section-right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+.banner-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 5px;
+}
+@media screen and (min-width: 768px) {
+  .banner-name {
+    font-size: 22px;
+  }
+}
+.banner-cusine {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  margin: 5px;
+}
+@media screen and (min-width: 768px) {
+  .banner-cusine {
+    font-size: 14px;
+  }
+}
+
+.banner-location {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  margin: 5px;
+}
+@media screen and (min-width: 768px) {
+  .banner-location {
+    font-size: 14px;
+  }
+}
+
+.banner-bottom-flex-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5px;
+}
+.banner-bottom-left-container {
+  border-right: 1px solid #e2e8f0;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.banner-rating-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+}
+.rating-icon {
+  color: white;
+  width: 18px;
+  height: 18px;
+}
+.rating-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  color: #ffffff;
+  margin: 0px;
+  margin-left: 5px;
+}
+.reviews-count {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #e2e8f0;
+  margin: 5px;
+}
+.banner-price-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.currency-icon {
+  color: white;
+  width: 18px;
+  height: 18px;
+}
+.cost-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  color: #ffffff;
+  margin: 5px;
+}
+.spRes-food-items-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  list-style-type: none;
+}
+@media screen and (min-width: 768px) {
+  .spRes-food-items-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
